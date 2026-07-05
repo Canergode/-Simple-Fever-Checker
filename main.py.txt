@@ -1,0 +1,10 @@
+# Get the body temperature from the user (float)
+body_temperature = float(input("Enter your body temperature: "))
+
+# Check the fever level and print the corresponding message
+if body_temperature > 37:
+    print("Warning! High Fever...")
+    print("Please see a doctor!")
+else:
+    print("Normal Body Temperature...")
+    print("Nothing to worry about...")
